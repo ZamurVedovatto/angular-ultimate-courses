@@ -39,3 +39,5 @@ prod/
 *.js.map
 *.ngfactory.ts
 *.ngsummary.json
+
+.angular/*
