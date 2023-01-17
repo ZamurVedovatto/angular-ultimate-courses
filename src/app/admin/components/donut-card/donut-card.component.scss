@@ -1,0 +1,9 @@
+.donut-card {
+  img {
+    max-width: 200px;
+  }
+  p {
+    &.donut-card-name {}
+    &.donut-card-price {}
+  }
+}
