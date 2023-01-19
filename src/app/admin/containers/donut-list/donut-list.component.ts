@@ -26,6 +26,7 @@ export class DonutListComponent implements OnInit {
         icon: "glazed-fudge",
         price: 129,
         description: "Sticky perfection.",
+        promo: true
       },
       {
         id: "y8z0Ds",

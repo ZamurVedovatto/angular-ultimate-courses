@@ -5,5 +5,10 @@
 />
 <div>
   <p class="donut-card-name">{{ donut.name }}</p>
-  <p class="donut-card-price">{{ donut.price | currencyBRL }}</p>
+  <p
+    class="donut-card-price"
+    [ngStyle]="{
+      fontWeight: donut.promo ? 'bold' : 'none'
+    }"
+  >{{ donut.price | currencyBRL }}</p>
 </div>
