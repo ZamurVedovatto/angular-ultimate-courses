@@ -4,7 +4,12 @@
   class="donut-card-icon"
 />
 <div>
-  <p class="donut-card-name">{{ donut.name }}</p>
+  <p
+    class="donut-card-name"
+    [ngClass]="{
+      'promo': donut.promo
+    }"
+    >{{ donut.name }}</p>
   <p
     class="donut-card-price"
     [ngStyle]="{

@@ -13,6 +13,9 @@
     &-name {
       font-size: 16px;
       margin: 2px 0;
+      &.promo {
+        color: rgb(255, 217, 0);
+      }
     }
     &-price {
       font-size: 14px;
