@@ -8,7 +8,12 @@
   <p
     class="donut-card-price"
     [ngStyle]="{
-      fontWeight: donut.promo ? 'bold' : 'none'
+      'font-size.px': donut.promo ? 20 : 16,
+      fontWeight: donut.promo ? 'bold' : 'none',
+      backgroundColor: donut.promo ? 'lightgrey' : 'none'
     }"
   >{{ donut.price | currencyBRL }}</p>
 </div>
+
+
+
